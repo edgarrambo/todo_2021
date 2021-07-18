@@ -38,6 +38,8 @@ group :development, :test do
   #adding rspc to gemfile
   gem 'rspec-rails', '~> 3.5'
   gem "factory_bot_rails"
+  #needed to be able to use json api dom manipulation
+  gem 'jquery-rails'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
